@@ -1,4 +1,3 @@
-
 :root {
     --cor-de-fundo: #be1111;
     --roxo: #7657ff;
@@ -72,16 +71,16 @@ body {
     }
 }
 
-    @media screen and (min-width: 768px) {
-        .botoes {
-            display: flex;
-        }
-
-        .botao:first-child {
-            border-radius: 40px 0 0 0;
-        }
-
-        .botao:last-child {
-            border-radius: 0 40px 0 0;
-        }
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
     }
+
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
+    }
+
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
+    }
+}
