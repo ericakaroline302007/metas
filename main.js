@@ -38,3 +38,9 @@ const tempos = [tempo(tempoObjetivo) {
  
  return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
 }
+function comecaCronometro(){
+    atualizaCronometro();
+    setInterval(atualizaCronometro,1000);
+}
+
+comecaCronometro();
