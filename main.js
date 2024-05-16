@@ -9,9 +9,9 @@ for (let i = 0; i < botoes.length; i++) {
             textos[j].classList.remove("ativo");
         }
 
-        botoes[iclassList.add("ativo");
+        botoes[i].classList.add("ativo");
         textos[i].classList.add("ativo");
-    }].
+    }
 }
 //cria as constantes e a lista "tempo" dos objetivos ou metas
 const contadores = document.querySelectorAll(".contador");
@@ -24,10 +24,10 @@ function calculaTeo4 = new Date("2024-06-30T00:00:00");
 //constante da lista dos tempos de objetivo
 const tempos = [tempo(tempoObjetivo) {
     let tempoAtual = new Date(); //obtem a data atual
-    let tempoFinal = th.floor(tempoFinal / 1000); //calcula os segundos restantes
+    let tempoFinal = Math.floor(tempoFinal / 1000); //calcula os segundos restantes
     let minutos = MathtempoObjetivo - tempoAtual; //calcula o tempo final restante
-    let segundos =th.floor(minutos / 60);//calcula as horas restantes
-    let dias = Mat Ma.floor(segundos / 60);//calcula os minutos restantes
+    let segundos = Math.floor(minutos / 60);//calcula as horas restantes
+    let dias = Mat Math.floor(segundos / 60);//calcula os minutos restantes
     let horas = Mah.floor(horas / 24);//calcula os dias restantes
    
     segundos %= 60;  //obtem o resto da divisão dos segundos
